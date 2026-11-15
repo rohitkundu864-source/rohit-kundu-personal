@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="page-title">Rohit Kundu | Software Developer & AI Specialist</title>
+  <meta name="description" content="Portfolio of Rohit Kundu - Software Developer & AI Specialist building modern web applications and AI-powered solutions.">
+  <meta name="author" content="Rohit Kundu">
+
+  <!-- Open Graph / Social Media Preview -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Rohit Kundu | Software Developer & AI Specialist">
+  <meta property="og:description" content="Turning Vision Into Reality With Code And Design. Explore my projects, skills, and resume.">
+  <meta property="og:image" content="./uploads/Screenshot_2025-07-18_204543_1792130827403_43492.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Rohit Kundu | Software Developer & AI Specialist">
+  <meta name="twitter:description" content="Turning Vision Into Reality With Code And Design.">
+  <meta name="twitter:image" content="./uploads/Screenshot_2025-07-18_204543_1792130827403_43492.png">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%22%20%220%22%20100%20100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+
+  <!-- Google Fonts & Font Awesome 6 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="./css/portfolio.css?v=2.0">
+</head>
+<body>
+
+  <!-- Ambient Backdrop Glow -->
+  <div class="bg-ambient-glow">
+    <div class="glow-orb glow-orb-1"></div>
+    <div class="glow-orb glow-orb-2"></div>
+  </div>
+
+  <!-- Real-Time Live Sync Notification -->
+  <div id="live-sync-banner" class="live-sync-banner">
+    <i class="fa-solid fa-arrows-rotate fa-spin"></i>
+    <span id="live-sync-text">Content updated in real time</span>
+  </div>
+
+  <!-- ==================== NAVIGATION BAR ==================== -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      
+      <!-- Left: Navigation Links -->
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#resume" class="nav-link">Resume</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Center: Monogram Circle Badge Logo -->
+      <a href="#home" class="nav-monogram" id="nav-monogram" aria-label="Rohit Kundu Portfolio">
+        <span class="monogram-text" id="nav-monogram-text">RK</span>
+      </a>
+
+      <!-- Right: Social Links + Theme Switcher -->
+      <div class="nav-right">
+        <div class="nav-socials" id="nav-socials">
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="nav-social-icon" aria-label="Twitter / X" title="Twitter / X">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="nav-social-icon" aria-label="GitHub" title="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="nav-social-icon" aria-label="LinkedIn" title="LinkedIn">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="mailto:rohitkundu9883@gmail.com" class="nav-social-icon" aria-label="Email" title="Direct Email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+
+        <button type="button" class="theme-toggle-btn" id="theme-toggle-btn" aria-label="Toggle theme mode" title="Toggle dark/light mode">
+          <i class="fa-solid fa-moon" id="theme-toggle-icon"></i>
+        </button>
+
+        <button type="button" class="nav-toggle-btn" id="nav-toggle-btn" aria-label="Toggle navigation menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+    <!-- ==================== HOME / HERO SECTION ==================== -->
+    <section class="hero-section" id="home">
+      <div class="container hero-container">
+        
+        <div class="hero-main-row">
+          
+          <!-- Left Column: Greeting, Name, Role & Download Resume (Exact Photo Match) -->
+          <div class="hero-content-column">
+            <span class="hero-greeting" id="hero-greeting">Hello , I'm</span>
+            <h1 class="hero-name" id="hero-name">Rohit Kundu</h1>
+            <p class="hero-role-title" id="hero-role-title">Web Developer</p>
+            
+            <div class="hero-cta-row">
+              <a href="./uploads/Rohit_Kundu_Resume.pdf" class="hero-download-resume" id="hero-resume-btn" target="_blank" download>
+                <span>Download Resume</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Column: Monochrome Portrait with Diagonal Accent Pills (Exact Photo Match) -->
+          <div class="hero-image-column">
+            <div class="hero-portrait-art-wrap">
+              <div class="diagonal-accent-pill pill-1"></div>
+              <div class="diagonal-accent-pill pill-2"></div>
+              <div class="diagonal-accent-pill pill-3"></div>
+
+              <img src="./uploads/WhatsApp_Image_2026-10-29_at_12_44_07_1793259780281_98320.jpeg" alt="Rohit Kundu" id="hero-avatar-img" class="hero-portrait-img">
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Settings / Customizer Gear (Top-Right, Exact Photo Match) -->
+      <a href="./admin.html" class="hero-settings-btn" aria-label="Admin Control Center" title="Open Admin Control Center">
+        <i class="fa-solid fa-gear"></i>
+      </a>
+    </section>
+
+    <!-- ==================== ABOUT ME SECTION (BELOW NAME & HERO) ==================== -->
+    <section class="about-section" id="about">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag"><i class="fa-regular fa-user"></i> About Me</span>
+          <h2 id="about-heading">Building Modern Web & AI Solutions</h2>
+          <p id="about-subheading">Software Developer • AI Enthusiast • Full-Stack Developer</p>
+        </div>
+
+        <!-- Live Achievement Counter Metrics (4 Cards) -->
+        <div class="about-stats-grid" id="about-stats-grid">
+          <!-- Dynamically populated from portfolioData.home.stats -->
+        </div>
+
+        <!-- About 2-Column Grid: Left Narrative + Right Highlights -->
+        <div class="about-grid">
+          <!-- Left Column: Bio Narrative & Personal Details -->
+          <div class="about-narrative">
+            <div class="about-bio-container" id="about-bio-paragraphs">
+              <!-- Dynamically populated from portfolioData.about.bioParagraphs -->
+            </div>
+            <div class="personal-info-grid" id="about-personal-info-grid">
+              <!-- Dynamically populated from portfolioData.about.personalInfo -->
+            </div>
+          </div>
+
+          <!-- Right Column: Core Competencies -->
+          <div class="about-competencies-col">
+            <h3 class="about-sub-title"><i class="fa-solid fa-layer-group"></i> Core Competencies & Principles</h3>
+            <div class="about-highlights-grid" id="about-highlights-grid">
+              <!-- Dynamically populated from portfolioData.about.highlights -->
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== SKILLS SECTION ==================== -->
+    <section class="skills-section" id="skills">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">Tech Stack & Expertise</span>
+          <h2>Technologies I Work With Every Day</h2>
+          <p>Carefully honed toolset across full-stack engineering, cloud infrastructure, and AI engineering.</p>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="skills-filter-tabs" id="skills-filter-tabs">
+          <button class="filter-tab active" data-category="all">All Skills</button>
+          <button class="filter-tab" data-category="Frontend">Frontend</button>
+          <button class="filter-tab" data-category="Backend">Backend</button>
+          <button class="filter-tab" data-category="Cloud & DevOps">Cloud & DevOps</button>
+        </div>
+
+        <!-- Skills Cards Grid -->
+        <div class="skills-grid" id="skills-grid">
+          <!-- Injected dynamically -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== PROJECTS SECTION ==================== -->
+    <section class="projects-section" id="projects">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">Featured Work</span>
+          <h2>Signature Projects & Applications</h2>
+          <p>Real-world architectures and scalable web platforms built for high performance and delightful experiences.</p>
+        </div>
+
+        <!-- Project Categories Filter -->
+        <div class="skills-filter-tabs" id="projects-filter-tabs">
+          <button class="filter-tab active" data-project-filter="all">All Projects</button>
+          <button class="filter-tab" data-project-filter="AI & Cloud">AI & Cloud</button>
+          <button class="filter-tab" data-project-filter="Fintech">Fintech</button>
+          <button class="filter-tab" data-project-filter="Web App">Web App</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid" id="projects-grid">
+          <!-- Injected dynamically -->
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== RESUME SECTION ==================== -->
+    <section class="resume-section" id="resume">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">Journey & Background</span>
+          <h2>Professional Experience & Education</h2>
+          <p id="resume-summary">Passionate Software Developer and Computer Science Engineering student specializing in full-stack web applications, AI-driven solutions, and responsive UI/UX.</p>
+        </div>
+
+        <div class="resume-header-actions">
+          <a href="./uploads/Rohit_Kundu_Resume.pdf" class="btn-resume-pill" id="resume-download-btn" target="_blank" download>
+            <i class="fa-solid fa-file-arrow-down"></i>
+            <span>Download Complete Resume (PDF)</span>
+          </a>
+        </div>
+
+        <div class="resume-timeline-container">
+          <!-- Experience Column -->
+          <div class="timeline-column">
+            <h3 class="timeline-column-title">
+              <i class="fa-solid fa-briefcase"></i> Work Experience
+            </h3>
+            <div class="timeline" id="experience-timeline">
+              <!-- Injected dynamically -->
+            </div>
+          </div>
+
+          <!-- Education Column -->
+          <div class="timeline-column">
+            <h3 class="timeline-column-title">
+              <i class="fa-solid fa-graduation-cap"></i> Education & Academics
+            </h3>
+            <div class="timeline" id="education-timeline">
+              <!-- Injected dynamically -->
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">Get In Touch</span>
+          <h2>Let's Build Something Exceptional Together</h2>
+          <p>Have an ambitious project in mind, an engineering leadership opportunity, or just want to discuss software architecture?</p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Contact Info Cards -->
+          <div class="contact-info-panel">
+            <a href="mailto:rohitkundu9883@gmail.com" class="contact-card-box" id="contact-email-card">
+              <div class="contact-card-icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="contact-card-text">
+                <h5>Email Address</h5>
+                <p id="contact-email-val">rohitkundu9883@gmail.com</p>
+              </div>
+            </a>
+
+            <a href="tel:8250873972" class="contact-card-box" id="contact-phone-card">
+              <div class="contact-card-icon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="contact-card-text">
+                <h5>Phone Number</h5>
+                <p id="contact-phone-val">8250873972</p>
+              </div>
+            </a>
+
+            <div class="contact-card-box" id="contact-loc-card">
+              <div class="contact-card-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="contact-card-text">
+                <h5>Location</h5>
+                <p id="contact-location-val">Kolkata, West Bengal, India</p>
+              </div>
+            </div>
+
+            <div class="contact-card-box" id="contact-avail-card">
+              <div class="contact-card-icon">
+                <i class="fa-solid fa-clock"></i>
+              </div>
+              <div class="contact-card-text">
+                <h5>Availability & Response</h5>
+                <p id="contact-response-val">Usually responds within 24 hours</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-panel">
+            <form id="public-contact-form">
+              <div class="form-group">
+                <label for="contact-name">Your Full Name *</label>
+                <input type="text" id="contact-name" name="name" class="form-control" placeholder="e.g. Elena Rostova" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email">Email Address *</label>
+                <input type="email" id="contact-email" name="email" class="form-control" placeholder="e.g. elena@company.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject">Subject</label>
+                <input type="text" id="contact-subject" name="subject" class="form-control" placeholder="Project inquiry, collaboration, or hello">
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message">Message *</label>
+                <textarea id="contact-message" name="message" class="form-control" placeholder="Tell me about your project, timeline, and goals..." rows="5" required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" id="contact-submit-btn" style="width: 100%;">
+                <span id="btn-text">Send Message</span>
+                <i class="fa-solid fa-paper-plane" id="btn-icon"></i>
+              </button>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-text">
+        &copy; <span id="current-year">2026</span> <strong id="footer-name">Rohit Kundu</strong>. All rights reserved.
+      </div>
+
+      <div class="footer-links">
+        <a href="#home">Back to top &uarr;</a>
+        <span class="footer-divider">•</span>
+        <a href="/admin" target="_blank" class="admin-link"><i class="fa-solid fa-lock"></i> Admin Portal</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== PROJECT DETAILS MODAL ==================== -->
+  <div class="modal-overlay" id="project-detail-modal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 id="modal-project-title">Project Details</h3>
+        <button type="button" class="modal-close-btn" id="modal-close-btn" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body" id="modal-project-body">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- Portfolio Fallback Data (Enables instant offline / static viewing) -->
+  <script src="./data/portfolio-data.js?v=2.0"></script>
+
+  <!-- Client-Side Dynamic Logic -->
+  <script src="./js/portfolio.js?v=2.0"></script>
+</body>
+</html>
